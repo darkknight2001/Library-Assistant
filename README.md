@@ -11,12 +11,12 @@
 * One-click Excel file import for Books list into database
    Added functionality to add Books into the database from a XLS/XLSX file for easier and faster storage of large amounts of data.
   <p align="center">
-   <img src=https://imgur.com/a/oAlWRSo>
+   <img src=https://i.imgur.com/GU8sA6u.png>
   </p>
 * One-click Excel file import for Members list into database
  Added functionality to add Members into the database from a XLS/XLSX file for easier and faster storage of large amounts of data.
   <p align="center">
-   <img src=https://imgur.com/a/kukdBgv>
+   <img src=https://i.imgur.com/vgXX49O.png>
   </p>
 * One-click database export
   <p align="center">
@@ -58,5 +58,5 @@
   <img src=https://i.imgur.com/3WMG9Bm.png>
   <img src=https://i.imgur.com/3316yUv.png>
   <img src=https://i.imgur.com/y7jrx93.png>
-  <img src=https://i.imgur.com/O0LXqoK.png>
+  <img src=https://i.imgur.com/ryJcmVp.png>
 </p>
