@@ -2,6 +2,13 @@
 This is a library management software developed using JavaFX programming language. The entire development video with explanation of each and every part (in realtime) is available in my YouTube Channel [Genuine Coder Youtube Channel](https://www.youtube.com/playlist?list=PLhs1urmduZ29jTcE1ca8Z6bZNvH_39ayL).
   
 ### New Features
+* Added Search Option in Book and Member List.
+   Added functionality to search Books and members by name, id , mobile, author ,publisher etc.
+  <p align="center">
+   <img src=https://i.imgur.com/tDluYMG.png>
+   <img src=https://i.imgur.com/2jaiCqv.png>
+   <img src=https://i.imgur.com/Dx5NwsK.png>
+  </p>
 * One-click Excel file import for Books list into database
    Added functionality to add Books into the database from a XLS/XLSX file for easier and faster storage of large amounts of data.
   <p align="center">
