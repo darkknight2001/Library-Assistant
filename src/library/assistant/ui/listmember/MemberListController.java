@@ -179,6 +179,14 @@ public class MemberListController implements Initializable {
     private void closeStage(ActionEvent event) {
         getStage().close();
     }
+    
+    @FXML
+    private void searchData(ActionEvent event) {
+        list.clear();
+        LibraryAssistantUtil.loadWindow(getClass().getResource("/library/assistant/ui/listmember/search_member.fxml"), "Search Member", null);
+        list=SearchMemberController.sendList();
+        tableView.setItems(list);
+    }
 
     public static class Member {
 
