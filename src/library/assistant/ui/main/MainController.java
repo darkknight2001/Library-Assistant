@@ -420,7 +420,7 @@ public class MainController implements Initializable, BookReturnCallback {
 
     @FXML
     private void handleAboutMenu(ActionEvent event) {
-        LibraryAssistantUtil.loadWindow(getClass().getResource("/library/assistant/ui/about/about.fxml"), "About Me", null);
+        LibraryAssistantUtil.loadWindow(getClass().getResource("/library/assistant/ui/about/about.fxml"), "About Us", null);
     }
 
     @FXML
