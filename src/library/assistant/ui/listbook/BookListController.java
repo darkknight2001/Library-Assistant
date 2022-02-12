@@ -183,6 +183,13 @@ public class BookListController implements Initializable {
     private void closeStage(ActionEvent event) {
         getStage().close();
     }
+    @FXML
+    private void searchData(ActionEvent event) {
+        list.clear();
+        LibraryAssistantUtil.loadWindow(getClass().getResource("/library/assistant/ui/listbook/search_book.fxml"), "Search Book", null);
+        list=SearchBookController.sendList();
+        tableView.setItems(list);
+    }
 
     public static class Book {
 
