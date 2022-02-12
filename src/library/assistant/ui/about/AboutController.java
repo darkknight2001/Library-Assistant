@@ -19,11 +19,10 @@ import library.assistant.util.LibraryAssistantUtil;
 
 public class AboutController implements Initializable {
 
-    private static final String LINKED_IN = "https://www.linkedin.com/in/muhammedafsalvillan/";
-    private static final String FACEBOOK = "http://facebook.com/afsalashyana";
-    private static final String WEBSITE = "http://www.genuinecoder.com";
-    private static final String YOUTUBE = "https://www.youtube.com/c/GenuineCoder";
-
+    private static final String LINKED_IN1 = "https://www.linkedin.com/in/lakshya-khandelwal-8148a213b/";
+    private static final String LINKED_IN2 = "https://www.linkedin.com/in/kushagra-gupta2702";
+    private static final String LINKED_IN3 = "https://www.linkedin.com/in/himanshu-vaswani-941875144/";
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         AlertMaker.showTrayMessage(String.format("Hello %s!", System.getProperty("user.name")), "Thanks for trying out Library Assistant");
@@ -45,28 +44,25 @@ public class AboutController implements Initializable {
         Stage stage = new Stage();
         Scene scene = new Scene(new StackPane(browser));
         stage.setScene(scene);
-        stage.setTitle("Genuine Coder");
+        stage.setTitle("MSRIT CSE");
         stage.show();
         LibraryAssistantUtil.setStageIcon(stage);
     }
 
-    @FXML
-    private void loadYoutubeChannel(ActionEvent event) {
-        loadWebpage(YOUTUBE);
-    }
+   
 
     @FXML
-    private void loadBlog(ActionEvent event) {
-        loadWebpage(WEBSITE);
+    private void loadLinkedIN1(ActionEvent event) {
+        loadWebpage(LINKED_IN1);
+    }
+     @FXML
+    private void loadLinkedIN2(ActionEvent event) {
+        loadWebpage(LINKED_IN2);
+    }
+     @FXML
+    private void loadLinkedIN3(ActionEvent event) {
+        loadWebpage(LINKED_IN3);
     }
 
-    @FXML
-    private void loadLinkedIN(ActionEvent event) {
-        loadWebpage(LINKED_IN);
-    }
-
-    @FXML
-    private void loadFacebook(ActionEvent event) {
-        loadWebpage(FACEBOOK);
-    }
+  
 }
